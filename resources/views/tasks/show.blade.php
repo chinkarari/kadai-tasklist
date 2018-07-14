@@ -2,8 +2,6 @@
 
 @section('content')
 
-    
-    
     <div class="row">
         <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-lg-offset-3 col-lg-6">
             <h1>id = {{ $task->id }} の課題</h1>
