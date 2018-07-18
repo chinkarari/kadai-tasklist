@@ -79,13 +79,9 @@ class TasksController extends Controller
     {
         $task = Task::find($id);
         
-        if (count($task) > 0) {
-            return view('tasks.show', [
+        return view('tasks.show', [
             'task' => $task,
             ]);
-        } else {
-            return redirect('/');
-        }
     }
 
     /**
